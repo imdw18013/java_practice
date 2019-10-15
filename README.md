@@ -45,3 +45,4 @@
         </aside>
           `).join('');
 }" ```
+![image of how the .map function works](https://github.com/imdw18013/java_practice/blob/master/Screenshot%20(8).png)
