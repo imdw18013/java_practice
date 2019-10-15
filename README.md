@@ -8,12 +8,12 @@
   main.innerHTML = tweets.map(tweet =>`
         <aside>
          <div>
-            <img class="avatar" src="${tweet.avatar}">
+            <img class="avatar" src="${tweets.avatar}">
          </div>
          <div class="formatted-tweet">
-            <h6><a href="https://twitter.com/${tweet.username}">${tweet.name}</a> <span class="username">@${tweet.username}</span></h6>
-            <p>${tweet.tweet}</p>
-            <div class="imgGifPoll">
+            <h6><a href="https://twitter.com/${tweets.username}">${tweets.name}</a> <span class="username">@${tweets.username}</span></h6>
+            <p>${tweets.tweets}</p>
+            <div class="img">
             </div>
             <div>
                 <section>
