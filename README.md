@@ -3,6 +3,7 @@
 ## ES6+ features:
 ## *1).map function*: This function creates a new array with the results of calling a new function for each array element. Map is a collection of elemetes where each element is stored as key and value. It returns the key, value pair in the same order as inserted. We have used map function in our twitter page where we fetched the values and stored them into array to return the same value.
 # [More details about .map functions!] https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+![image of how the .map function works](https://github.com/imdw18013/java_practice/blob/master/Screenshot%20(8).png)
 ``` javascript  "function render() {
   main.innerHTML = tweets.map(tweet =>`
         <aside>
@@ -45,4 +46,3 @@
         </aside>
           `).join('');
 }" ```
-![image of how the .map function works](https://github.com/imdw18013/java_practice/blob/master/Screenshot%20(8).png)
